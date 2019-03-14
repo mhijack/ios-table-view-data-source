@@ -12,6 +12,8 @@
 		B55474FF223A34D40081C9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55474FD223A34D40081C9BC /* Main.storyboard */; };
 		B5547501223A34D50081C9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5547500223A34D50081C9BC /* Assets.xcassets */; };
 		B5547504223A34D50081C9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5547502223A34D50081C9BC /* LaunchScreen.storyboard */; };
+		B554750C223A350D0081C9BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554750B223A350D0081C9BC /* DetailViewController.swift */; };
+		B554750E223A36020081C9BC /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554750D223A36020081C9BC /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B5547500223A34D50081C9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5547503223A34D50081C9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5547505223A34D50081C9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B554750B223A350D0081C9BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B554750D223A36020081C9BC /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				B55474F9223A34D40081C9BC /* AppDelegate.swift */,
 				B55474FB223A34D40081C9BC /* ViewController.swift */,
+				B554750B223A350D0081C9BC /* DetailViewController.swift */,
 				B55474FD223A34D40081C9BC /* Main.storyboard */,
 				B5547500223A34D50081C9BC /* Assets.xcassets */,
 				B5547502223A34D50081C9BC /* LaunchScreen.storyboard */,
 				B5547505223A34D50081C9BC /* Info.plist */,
+				B554750D223A36020081C9BC /* CustomCell.swift */,
 			);
 			path = "ios-table-view-delegate";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B554750C223A350D0081C9BC /* DetailViewController.swift in Sources */,
 				B55474FC223A34D40081C9BC /* ViewController.swift in Sources */,
+				B554750E223A36020081C9BC /* CustomCell.swift in Sources */,
 				B55474FA223A34D40081C9BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JianyuanChen.ios-table-view-delegate";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianyuanChen.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JianyuanChen.ios-table-view-delegate";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JianyuanChen.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
